@@ -107,4 +107,4 @@ curl -X POST "http://<your-api-url>/api/infer" \
 
 [https://drive.google.com/file/d/1DWWP1gDkl6ZB2MYPM57_-U3Ho1pmm-AL/view?usp=sharing]
 
-Note that Funding is required as we need to purchase or take subscription of Gemini API KEY..
+Note that Funding is required for proper configuration and setup as we need to purchase or take subscription of Gemini API KEY..
