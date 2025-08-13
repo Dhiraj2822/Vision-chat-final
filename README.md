@@ -98,9 +98,6 @@ curl -X POST "http://<your-api-url>/api/infer" \
 *   **Video Processing:** [e.g., Time taken to process a 5-minute, 90fps video]
 *   **Query Processing:** [e.g., Concurrent queries handled per second]
 
-## Challenges and Learnings
-*(This section should be filled out based on your development experience)*
-
 *   **Challenge 1: Scaling Video Processing:** Initial client-side processing was not viable for long-form, high-resolution video as required in Round 2. The solution was to move all heavy lifting to the backend, using server-side processing with Genkit to handle the video data directly.
 *   **Challenge 2: Meeting Low-Latency Requirements:** Achieving sub-1000ms latency requires optimizing the entire inference pipeline. This involves choosing the right model (e.g., Gemini 2.0 Flash for speed) and ensuring the AI flow is streamlined. The Gemini model's ability to directly reason over video is key to avoiding slow, multi-step processing (e.g. frame extraction -> captioning -> summary -> chat).
 *   **Learning 1: Backend vs. Frontend Processing:** A key takeaway was the importance of correctly architecting where data processing occurs. For scalable, high-performance applications, sensitive and intensive tasks must be handled on a powerful backend.
@@ -110,3 +107,4 @@ curl -X POST "http://<your-api-url>/api/infer" \
 
 [https://drive.google.com/file/d/1DWWP1gDkl6ZB2MYPM57_-U3Ho1pmm-AL/view?usp=sharing]
 
+Note that Funding is required to properly setup as we need to purchase or take subscription of Gemini API KEY..
