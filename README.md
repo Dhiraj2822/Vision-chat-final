@@ -4,10 +4,6 @@
 
 VisionChat is an AI-powered chat assistant that analyzes video content and allows users to have conversations about what's happening in the video. This project is designed to be a high-performance, scalable solution, optimized for low latency and handling long-form video content, addressing the challenges of Round 2. Users can upload a short video (up to 2 minutes), and the application will automatically extract key frames, generate descriptive captions, create a summary, and enable a conversational chat experience to ask detailed questions about the video's contents.
 
-## Architecture
-
-![Architecture Diagram](./architecture_diagram.png)
-
 ## Tech Stack Justification
 
 *   **Next.js**: Chosen for its robust, production-ready framework for React. Its features like API Routes, Server Components, Server Actions, and an intuitive App Router allow for building a fast, modern, and scalable application. This is ideal for our interactive and media-heavy application, enabling both a rich client-side experience and a powerful backend API.
@@ -112,53 +108,5 @@ curl -X POST "http://<your-api-url>/api/infer" \
 
 ## Demo Video
 
-[Link to your demo video here]
+[https://drive.google.com/file/d/1DWWP1gDkl6ZB2MYPM57_-U3Ho1pmm-AL/view?usp=sharing]
 
-**Instructions for creating the demo video:**
-1.  Record a short video (1-2 minutes) of the application in action.
-2.  Showcase the core features:
-    *   Start on the main page.
-    *   Upload a video file.
-    *   Click the "Process Video" button and show the progress bar.
-    *   Navigate through the "Analysis" tab, scrolling through the frame carousel and showing the summary.
-    *   Switch to the "Chat" tab and ask a few questions about the video to demonstrate the chatbot's capabilities, including a follow-up question.
-    *   Briefly show a cURL command to the `/api/infer` endpoint to demonstrate its functionality for the evaluation.
-3.  Upload the video to a platform like YouTube or Loom and replace the link above with your video's URL.
-
-## Pushing to GitHub
-
-Follow these steps to push your source code to a new GitHub repository.
-
-1.  **Create a Repository**: Go to [GitHub](https://github.com) and create a new **public** repository. This is important so judges can access your work. Do **not** initialize it with a README, .gitignore, or license file.
-
-2.  **Initialize Git**: Open your terminal in the project's root directory and run:
-    ```bash
-    git init -b main
-    ```
-
-3.  **Add Files**: Add all the source code files to be tracked:
-    ```bash
-    git add .
-    ```
-
-4.  **Commit Changes**: Create the first commit:
-    ```bash
-    git commit -m "Initial commit: VisionChat project setup"
-    ```
-
-5.  **Add MantraHackathon as a Collaborator**:
-    *   In your GitHub repository, go to `Settings` > `Collaborators and teams`.
-    *   Click `Add people`.
-    *   Enter **`MantraHackathon`** and invite them to the repository.
-
-6.  **Link to GitHub**: Link your local repository to the remote one on GitHub. Replace `<your-repository-url>` with the URL from your new repository.
-    ```bash
-    git remote add origin <your-repository-url>
-    ```
-
-7.  **Push the Code**: Push your local code to the remote repository on GitHub:
-    ```bash
-    git push -u origin main
-    ```
-
-Your project is now fully documented and ready for submission. Good luck!
