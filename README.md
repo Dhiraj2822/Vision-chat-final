@@ -28,13 +28,14 @@ cd <repository-directory>
 
 You'll need a Google AI API key to use the AI features.
 
-1.  Create a file named `.env` in the root of the project.
-2.  Add your API key to the `.env` file like this:
+1. Copy `.env.example` to `.env.local`.
+2. Add the required variable:
 
-    ```
-    GEMINI_API_KEY=your_google_ai_api_key
-    ```
-    Replace `your_google_ai_api_key` with your actual key from Google AI Studio.
+   ```
+   GEMINI_API_KEY=your_google_ai_api_key
+   ```
+
+3. Keep this value private and never commit `.env*` files or real credentials to version control.
 
 ### 3. Install Dependencies
 
@@ -105,6 +106,4 @@ curl -X POST "http://<your-api-url>/api/infer" \
 
 ## Demo Video
 
-[https://drive.google.com/file/d/1DWWP1gDkl6ZB2MYPM57_-U3Ho1pmm-AL/view?usp=sharing]
-
-Note that Funding is required for proper configuration and setup as we need to purchase or take subscription of Gemini API KEY..
+No public demo link is included in this repository.
