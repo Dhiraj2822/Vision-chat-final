@@ -1,3 +1,5 @@
+[Solution Summary: VisionChat is a high-performance, AI-powered video analysis and conversational assistant built using Next.js, Google Gemini, and Genkit. It provides automated keyframe extraction, descriptive captioning, comprehensive video summarization, and an interactive chat interface with low-latency multimodal reasoning over video content.]
+
 # VisionChat
 
 ## Project Overview
